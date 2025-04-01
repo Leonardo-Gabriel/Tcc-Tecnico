@@ -1,0 +1,27 @@
+INSERT INTO tb_cidades (cod_cidade, nome_cidade, estado_cidade) VALUES
+(1, 'Cascavel', 'PR');
+
+INSERT INTO tb_clientes (cod_cliente,tipo_cliente,nome_cliente,data_nasc, fone_cliente, senha, cpf_cnpj, email_cliente) VALUES
+(1,'A','adm','2004-01-01',45987654321,'21232f297a57a5a743894a0e4a801fc3',98765432101,'adm@gmail.com'),
+(2,'C','usuario','2004-01-01',45789012345,'f8032d5cae3de20fcec887f395ec9a6a',12345678902,'usuario@gmail.com'),
+(3,'C','Robert','2004-01-01',45456123789,'684c851af59965b680086b7b4896ff98',56789012303,'robert@gmail.com'),
+(4,'C','Rogerio','2004-01-01',45678901234,'d4f3923781e4e14d7e1b5f206e5e1888',23456789004,'rogerio@gmail.com'),
+(5,'C','Lionel','2004-01-01',45999999999,'800a0e21225906fe82d141def1a9202d',78901234505,'lionel@gmail.com'),
+(6,'C','Cristiano','2004-01-01',45876543210,'bbad900e63b410d0e85bfa715b2f49d0',34567890106,'cristiano@gmail.com'),
+(7,'C','Marta','2004-01-01',45901234567,'a763a66f984948ca463b081bf0f0e6d0',89012345607,'marta@gmail.com'),
+(8,'C','Joana','2004-01-01',45543219876,'18f01959ff46071d73905d549cafde20',45678901208,'joana@gmail.com'),
+(9,'C','Erling','2004-01-01',45321098765,'895508b9b5423a2e29b023dd2d74149a',01234567809,'erling@gmail.com'),
+(10,'C','Carla','2004-01-01',45123456789,'1fa4a2211b4e290f2a066de6b84187ec',67890123410,'carla@gmail.com');
+
+
+INSERT INTO tb_espacos VALUES 
+(1,'Quadra society', 100.00, 'S', 'Quadra society- campo ao lado direito');
+
+INSERT INTO tb_imagens VALUES
+(1, 1, 'img/quadra_direita.jpg');
+
+INSERT INTO tb_espacos VALUES 
+(2,'Quadra society', 100.00, 'S', 'Quadra society- campo ao lado esquerdo');
+
+INSERT INTO tb_imagens VALUES
+(2, 2, 'img/quadra_esquerda.jpg');
